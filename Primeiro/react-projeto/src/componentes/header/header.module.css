@@ -1,0 +1,16 @@
+.Header
+{
+    color: var(--cinza);
+    background-color: var(--preto);
+        padding: 2px;
+}
+
+.Header h1, span
+{
+    color: var(--roxo);
+}
+
+h1
+{
+    font-size: 38px;
+}
