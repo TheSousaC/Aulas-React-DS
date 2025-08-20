@@ -6,7 +6,7 @@ const FormCriarTarefa = () => {
     return(
             <form action="" method="post" className={style.FormCriarTarefa}>
                 <CampoTexto />
-                <Botao texto='ADICIONAR' tipo={TIPO_BOTAO.SECUNDARIO}/>
+                <Botao texto='ADICIONAR'/>
             </form>
     )
 }

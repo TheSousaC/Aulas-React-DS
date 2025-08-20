@@ -7,6 +7,6 @@
 .Botao[tipo = "primario"]{
         background: var(--verde);
 }
-.Botao [tipo = "secundario"]{
+.Botao[tipo = "secundario"]{
         background: var(--roxo);
 }

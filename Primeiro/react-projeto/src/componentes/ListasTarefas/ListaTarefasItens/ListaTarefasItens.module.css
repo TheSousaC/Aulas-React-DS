@@ -1,0 +1,5 @@
+.itens_lista
+{
+    display: flex;
+    gap: 0.5rem;
+}
