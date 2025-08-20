@@ -1,5 +1,6 @@
 import './App.css'
-import { Header, Conteudo} from './componentes'
+import { Header, Conteudo, Footer} from './componentes'
+import { PgInicial } from './pages'
 
 function App() {
 
@@ -7,9 +8,9 @@ function App() {
     <>
     <Header nameUser="Gabriel" />
     <Conteudo>
-      <h1>OI</h1>
-      <p>OI 2</p>
+      <PgInicial />
     </Conteudo>
+    <Footer Criador="Gabriel Costa" />
     </>
   )
 }
