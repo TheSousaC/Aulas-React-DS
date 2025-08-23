@@ -1,21 +1,13 @@
 import './App.css'
-import { BrowserRouter } from 'react-router-dom'
-import { Header, Conteudo, Footer} from './componentes'
-import { PgInicial } from './pages'
+import { BrowserRouter, } from 'react-router-dom'
+import { Router } from './Router'
 
 function App() {
 
   return (
-    <>
     <BrowserRouter>
       <Router />
-    {/* <Header nameUser="Gabriel" />
-    <Conteudo>
-      <PgInicial />
-    </Conteudo>
-    <Footer Criador="Gabriel Costa" /> */}
     </BrowserRouter>
-    </>
   )
 }
 
