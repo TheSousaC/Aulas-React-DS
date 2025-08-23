@@ -4,9 +4,9 @@ import style from './header.module.css'
 const Header = () =>
 {
     return(
-        <div>
+        <div className={style.Header}>
             <Link to="/">
-                <h1 className={style.Header}>
+                <h1>
                 <span>ToDo </span> 
                 List
                 </h1>

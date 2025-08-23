@@ -1,17 +1,27 @@
 .Header
 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
     color: var(--cinza);
     background-color: var(--preto);
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem;
     border: 0.5rem;
 }
 
-.Header h1, span
+.Header span
 {
     color: var(--roxo);
 }
 
+.Header a
+{
+    text-decoration: none;
+    color: var(--cinza);
+}
+
 h1
 {
-    font-size: 38px;
+    font-size: 2rem;
 }

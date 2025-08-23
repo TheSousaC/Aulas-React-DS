@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router-dom'
 import { Header, Conteudo, Footer} from '../../componentes'
-// import { PgInicial } from '../../pages'
 
 const LayoutPadrao = () =>{
     return(
