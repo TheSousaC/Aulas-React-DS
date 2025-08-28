@@ -2,9 +2,10 @@ import { CampoTexto } from '../CampoTexto'
 import { Botao } from '../Botao'
 import style from './FormCriarTarefa.module.css'
 import { useState } from 'react';
+import { UseAppContext } from '../../hooks';
 
-const FormCriarTarefa = (props) => {
-    const {setTarefas} = props;
+const FormCriarTarefa = () => {
+    const {setTarefas} = UseAppContext()
 
     const [NomeTarefa, setNomeTarefa] = useState("")
 
